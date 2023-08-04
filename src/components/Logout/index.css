@@ -1,0 +1,16 @@
+/* Write your CSS here */
+button {
+  background-color: #ffffff;
+  color: #303150;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  button {
+    font-size: 13px;
+    border-radius: 8px;
+  }
+}
